@@ -23,18 +23,99 @@
             }
         }
     </script>
-    <style>        
-        *{
+    <style>
+        * {
             font-family: "Manrope", sans-serif;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        
+    <header class="p-6 relative container mx-auto">
+        <div class="carousel w-full lg:mt-16 mb-10 lg:mb-24">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="Extra-pic/2.jpg" class="w-full rounded-2xl" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-32 lg:left-5 top-3/4">
+                    <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="Extra-pic/3.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-32 lg:left-5 top-3/4">
+                    <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="Extra-pic/4.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-32 lg:left-5 top-3/4">
+                    <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
+                </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+                <img src="Extra-pic/5.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-32 lg:left-5 top-3/4">
+                    <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                </div>
+            </div>
+        </div>
+        <div
+            class="mt-4 lg:absolute rounded-2xl p-4 lg:p-8 bg-black text-white lg:transform lg:-translate-y-1/2 right-10 top-3/4">
+            <h2 class="font-extrabold text-lg lg:text-xl mb-4">Meet all the heroes from the field</h2>
+            <p class="font-medium">You can meet our heros along with their kits in action. Support your favorite player
+                in the field.</p>
+        </div>
     </header>
     <main>
+        <section class="container mx-auto">
+            <div class="text-center">
+                <h1 class="font-extrabold text-4xl mb-6">Professional Hockeys Club</h1>
+                <p class="font-medium lg:px-72 pb-8">Our professional hockey club encourages young players to join our
+                    community for the better purpose of our community.</p>
+            </div>
+            <!-- image div -->
+            <div>
+                <div class="m-6 lg:flex gap-6 justify-between">
+                    <!-- image-1 -->
+                    <div class="relative mb-6 lg:mb-0">
+                        <img class="lg:w-[800px]" src="Images/2.png" alt="">
+                        <div class="absolute pl-10 top-4 lg:top-40">
+                            <h1 class="font-extrabold text-xl lg:text-3xl text-white">Junior Program</h1>
+                            <p class="w-[96%] lg:w-[90%] text-sm lg:text-lg font-medium text-white pt-4 pb-5">Hockey's
+                                junior program provides
+                                opportunities for players ages 16-to-20 to hone and enhance their skills.</p>
+                            <button class="btn btn-secondary">Register Now</button>
+                        </div>
+                    </div>
+                    <!-- image-2 -->
+                    <div class="relative">
+                        <img class="lg:w-[800px]" src="Images/3.png" alt="">
+                        <div class="absolute pl-10 top-4 lg:top-40">
+                            <h1 class="font-extrabold text-xl lg:text-3xl text-white">Junior Program</h1>
+                            <p class="w-[96%] lg:w-[90%] text-sm lg:text-lg font-medium text-white pt-4 pb-5">Hockey's
+                                junior program provides
+                                opportunities for players ages 16-to-20 to hone and enhance their skills.</p>
+                            <button class="btn btn-secondary">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- image-3 -->
+                <div class="relative m-6 lg:pb-24 lg:mr-6 ml-6">
+                    <img class="w-[1600px] h-[210px] lg:h-[590px] rounded-lg" src="Images/4.png" alt="">
+                    <div class="absolute pl-10 top-4 lg:top-80">
+                        <h1 class="font-extrabold text-xl lg:text-3xl text-white">Junior Program</h1>
+                        <p class="w-[96%] lg:w-[70%] text-sm lg:text-lg font-medium text-white pt-4 pb-5">Hockey's
+                            junior program provides
+                            opportunities for players ages 16-to-20 to hone and enhance their skills.</p>
+                        <button class="btn btn-secondary">Register Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
     </main>
     <footer>
